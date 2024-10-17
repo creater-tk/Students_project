@@ -18,7 +18,7 @@ const NavBar = () => {
         </Link>
       </nav>
       <div style={{display:'flex', justifyContent:'flex-end'}}>
-        <img src={profile} alt="" />
+        <img style={{width:'5vw'}} src={profile} alt="" />
       </div>
     </div>
   )

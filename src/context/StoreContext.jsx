@@ -30,7 +30,7 @@ const ContextProvider = (props)=>{
   const addField = (id, label, input, name, value)=>(
     <div className='addField'>
       <label htmlFor={id}>{label}</label>
-      <input onChange={onChangeHandler} type={input} placeholder={label} name={name} value={value} required />
+      <input style={{fontSize:"1vw"}} onChange={onChangeHandler} type={input} placeholder={label} name={name} value={value} required />
     </div>
   )
 

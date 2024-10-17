@@ -25,3 +25,6 @@ a{
   color: inherit;
   text-decoration: none;
 }
+input{
+  font-size: 1vw;
+}

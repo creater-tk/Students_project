@@ -1,0 +1,27 @@
+.homePage{
+  width: 100vw;
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+}
+.student_table{
+  border: 1px solid gray;
+  width: 60vw;
+  height: 70vh;
+  border-radius: 1vw;
+  box-shadow: 2px 2px 10px gray;
+}
+.header{
+  position: sticky;
+  top: 0px;
+  background-color: rgb(67, 66, 66);
+  border-radius: 1vw 1vw 0vw 0vw;
+}
+.field{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1.5fr 1fr;
+  padding:  1vw;
+  padding-left: 3vw;
+  align-items: center;
+  gap: 1vw;
+}
